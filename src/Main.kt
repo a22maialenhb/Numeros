@@ -81,7 +81,7 @@ fun comprobar(numero: String, solucion: String): Boolean {
 // Función principal del juego
 fun jugar() {
     contador = 0  // Resetear contador
-
+    println("${LIGHT_PINK}Escribe un número del 1 al 6 (ambos incluidos). Y que sea de 4 cifras únicamente.${RESET} \n")
     println("${LIGHT_PINK}Los aciertos son los números en la posición correcta con la cifra correcta.${RESET}")
     println("${LIGHT_PINK}Las coincidencias son los números que se encuentran dentro del número secreto.${RESET} \n")
     println("Teclea un número de 4 cifras no repetidas con dígitos del 1 al 6: \n ")
