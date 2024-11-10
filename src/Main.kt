@@ -87,7 +87,6 @@ fun jugar() {
     println("Teclea un número de 4 cifras no repetidas con dígitos del 1 al 6: \n ")
 
     val numeroAleatorio = numAlt()  // Generar el número secreto
-    println("Número secreto (para pruebas): $numeroAleatorio")
     File("ultima_jugada.txt").writeText("${ORANGE}Jugada completa: \n${RESET}")
 
     // Ciclo de intentos
